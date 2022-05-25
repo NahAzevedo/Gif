@@ -1,0 +1,12 @@
+
+#anima-div{
+    background-image: url("../images/gif.png");
+    width: 250px;
+    height: 250px;
+    animation: anima-sprite 1s steps(12) infinite;
+}
+
+@keyframes anima-sprite{
+    from{background-position: 0px;}
+    to{background-position: 3000px;}
+}
